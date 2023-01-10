@@ -32,7 +32,7 @@ export const AddTodo = ({
             className="flex-1 rounded shadow p-2 text-grey-dark mr-2"
             onChange={handleChange}
         />
-        <button type="submit" arial-label="Add Todo">
+        <button type="submit" arial-label="Add Todo" className="bg-blue-600 text-lime-50 px-3 rounded">
             Add Task
         </button>
     </form>

@@ -90,12 +90,12 @@ const Todos = () => {
                     />)}
 
                 {!isTodos && (
-                    <p className="mb-5 text-xl text-red-500 uppercase">
-                        Please add a take!
+                    <p className="mb-5 mt-3 text-xl text-orange-600 uppercase">
+                        Please add a task!
                     </p>
                 )}
                 {isTodos && (
-                    <p>
+                    <p className="my-3">
                         [{remainTodos} of {todosLength}] todos remaining
                     </p>
                 )}

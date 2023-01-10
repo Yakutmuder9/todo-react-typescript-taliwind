@@ -7,8 +7,8 @@ export const Row = ({
 }: TodoProps) => (
   <div
     className={`
-        flex w-full p-4 mb-2 justify-between items-center
-       ${isCompleted ? "bg-gray-400 " : "bg-green-300"}
+        flex w-full p-4 my-3 mb-2 justify-between items-center
+       ${isCompleted ? "bg-gray-400 " : "bg-lime-500 rounded"}
       `}
   >
     <p
